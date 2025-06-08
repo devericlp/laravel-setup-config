@@ -1,0 +1,30 @@
+{
+    "name": "devericlp/laravel-setup-config",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devericlp\\LaravelSetupConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ericlp",
+            "email": "dev.ericlp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^12.17",
+        "laravel/prompts": "^0.3.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devericlp\\LaravelSetupConfig\\SetupConfigServiceProvider"
+            ]
+        }
+    }
+}
